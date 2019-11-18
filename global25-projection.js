@@ -50,7 +50,16 @@ var vm = new Vue({
           
         ],
         initialLayout: '',
-        layout: { 
+        layout: {
+		paper_bgcolor: '#7f7f7f',
+  plot_bgcolor: '#c7c7c7',
+		margin: {
+    l: 0,
+    r: 0,
+    b: 0,
+    t: 60,
+    
+  },
           xaxis: {
             zeroline: false
           },
