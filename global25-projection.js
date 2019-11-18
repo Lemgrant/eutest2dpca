@@ -52,7 +52,7 @@ var vm = new Vue({
         initialLayout: '',
         layout: {
 		paper_bgcolor: '#7f7f7f',
-  plot_bgcolor: '#c7c7c7',
+  plot_bgcolor: '#fbfbfb',
 		margin: {
     l: 0,
     r: 0,
