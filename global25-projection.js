@@ -101,7 +101,7 @@ var vm = new Vue({
         input.shift();
         dataset[0] = input;
         predicted = currentPcaData.mlpca.predict(dataset);
-        Plotly.addTraces(graphDiv, {x: [Number((predicted.data[0][currentPcaData.x] * currentPcaData.flipX).toFixed(0))], y: [Number((predicted.data[0][currentPcaData.y] * currentPcaData.flipX).toFixed(0))], mode: 'markers+text', type: 'scatter', name: inputName, text: [inputName],  marker: { size: 5 },textfont: {family:'Arial', size: 11, color: '#ff0000'}});
+        Plotly.addTraces(graphDiv, {x: [Number((predicted.data[0][currentPcaData.x] * currentPcaData.flipX).toFixed(6))], y: [Number((predicted.data[0][currentPcaData.y] * currentPcaData.flipX).toFixed(6))], mode: 'markers+text', type: 'scatter', name: inputName, text: [inputName],  marker: { size: 5 },textfont: {family:'Arial', size: 11, color: '#ff0000'}});
       }
       else {
         this.inputHasError = true;
