@@ -4,6 +4,13 @@
 https://github.com/Lemgrant/
 forked from https://github.com/vahaduo/
 -->
+<style>
+    #link_bar a { padding:0.375rem; font-weight:bold; float:left; }
+    #link_bar a:link { color:#d0d0d0; background-color:#0000a0; }
+    #link_bar a:visited { color:#c0c0c0; background-color:#0000a0; }
+    #link_bar a:hover { color:#ffffff; background-color:#000060; }
+    #link_bar a:active { color:#f0f0f0; background-color:#00ff00; }
+</style>	
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152856004-1"></script>
@@ -58,7 +65,8 @@ forked from https://github.com/vahaduo/
         <button class="btn btn-outline-primary" type="button" @click="addtrace">
           Add to PCA
         </button>
-		<a href="https://lemgrant.github.io/eutest3dpca/" style="color:red">3D PCA</a>
+	      <div id="link_bar"><a href="https://lemgrant.github.io/eutest3dpca/">3D PCA</a>
+		
       </div>
     </div>
   </form> 
